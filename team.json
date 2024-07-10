@@ -1,0 +1,7 @@
+[
+    { "id": 1, "name": "Harry Potter", "role": "Auror", "photo": "/images/harry.jpg" },
+    { "id": 2, "name": "Hermione Granger", "role": "Minister for Magic", "photo": "/images/hermione.jpg" },
+    { "id": 3, "name": "Ron Weasley", "role": "Auror", "photo": "/images/ron.jpg" },
+    { "id": 4, "name": "Albus Dumbledore", "role": "Headmaster", "photo": "/images/dumbledore.jpg" },
+    { "id": 5, "name": "Severus Snape", "role": "Potions Master", "photo": "/images/snape.jpg" }
+]

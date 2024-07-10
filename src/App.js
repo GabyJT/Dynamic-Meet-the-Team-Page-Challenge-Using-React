@@ -12,6 +12,13 @@ const App = () => {
         { id: 5, name: 'Severus Snape', role: 'Potions Master', photo: process.env.PUBLIC_URL + '/images/snape.jpg' },
     ];
 
+    useEffect(() => {
+        fetch('/team.json')
+            .then(response => response.json())
+            .then(data => setTeamMembers(data))
+            .catch(error => console.error('Error fetching team data:', error));
+    }, []);
+
     return (
         <div className="App">
             <Header title="Meet the Team" />
